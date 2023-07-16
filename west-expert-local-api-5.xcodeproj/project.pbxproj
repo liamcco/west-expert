@@ -14,6 +14,13 @@
 		D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */; };
 		D676D2672A63F05200FEF201 /* west_expert_local_api_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */; };
 		D676D2692A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */; };
+		D676D2772A63F08600FEF201 /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D676D2752A63F08600FEF201 /* openapi.yaml */; };
+		D676D2782A63F08600FEF201 /* openapi-generator-config.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */; };
+		D676D27C2A63F0E400FEF201 /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = D676D27B2A63F0E400FEF201 /* OpenAPIRuntime */; };
+		D676D27F2A63F0F200FEF201 /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = D676D27E2A63F0F200FEF201 /* OpenAPIURLSession */; };
+		D676D2852A641EDB00FEF201 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2842A641EDB00FEF201 /* TokenHandler.swift */; };
+		D676D2882A641F0F00FEF201 /* AuthenticationMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */; };
+		D676D28A2A641F6C00FEF201 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2892A641F6C00FEF201 /* AuthError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,11 @@
 		D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITests.swift; sourceTree = "<group>"; };
 		D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D676D2752A63F08600FEF201 /* openapi.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
+		D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
+		D676D2842A641EDB00FEF201 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
+		D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMiddleware.swift; sourceTree = "<group>"; };
+		D676D2892A641F6C00FEF201 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D676D27F2A63F0F200FEF201 /* OpenAPIURLSession in Frameworks */,
+				D676D27C2A63F0E400FEF201 /* OpenAPIRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +108,13 @@
 		D676D24A2A63F05000FEF201 /* west-expert-local-api-5 */ = {
 			isa = PBXGroup;
 			children = (
+				D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */,
+				D676D2752A63F08600FEF201 /* openapi.yaml */,
 				D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */,
 				D676D24D2A63F05000FEF201 /* ContentView.swift */,
+				D676D2892A641F6C00FEF201 /* AuthError.swift */,
+				D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */,
+				D676D2842A641EDB00FEF201 /* TokenHandler.swift */,
 				D676D24F2A63F05200FEF201 /* Assets.xcassets */,
 				D676D2512A63F05200FEF201 /* Preview Content */,
 			);
@@ -141,8 +160,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				D676D2812A63F0FF00FEF201 /* PBXTargetDependency */,
 			);
 			name = "west-expert-local-api-5";
+			packageProductDependencies = (
+				D676D27B2A63F0E400FEF201 /* OpenAPIRuntime */,
+				D676D27E2A63F0F200FEF201 /* OpenAPIURLSession */,
+			);
 			productName = "west-expert-local-api-5";
 			productReference = D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +239,11 @@
 				Base,
 			);
 			mainGroup = D676D23F2A63F05000FEF201;
+			packageReferences = (
+				D676D2792A63F0CD00FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
+				D676D27A2A63F0E400FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
+				D676D27D2A63F0F200FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+			);
 			productRefGroup = D676D2492A63F05000FEF201 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */,
+				D676D2782A63F08600FEF201 /* openapi-generator-config.yaml in Resources */,
 				D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */,
+				D676D2772A63F08600FEF201 /* openapi.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D676D24E2A63F05000FEF201 /* ContentView.swift in Sources */,
+				D676D2852A641EDB00FEF201 /* TokenHandler.swift in Sources */,
 				D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */,
+				D676D2882A641F0F00FEF201 /* AuthenticationMiddleware.swift in Sources */,
+				D676D28A2A641F6C00FEF201 /* AuthError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +325,10 @@
 			isa = PBXTargetDependency;
 			target = D676D2472A63F05000FEF201 /* west-expert-local-api-5 */;
 			targetProxy = D676D2632A63F05200FEF201 /* PBXContainerItemProxy */;
+		};
+		D676D2812A63F0FF00FEF201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = D676D2802A63F0FF00FEF201 /* OpenAPIGenerator */;
 		};
 /* End PBXTargetDependency section */
 
@@ -588,6 +626,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D676D2792A63F0CD00FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-generator.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		D676D27A2A63F0E400FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-runtime.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		D676D27D2A63F0F200FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-urlsession.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D676D27B2A63F0E400FEF201 /* OpenAPIRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D676D27A2A63F0E400FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */;
+			productName = OpenAPIRuntime;
+		};
+		D676D27E2A63F0F200FEF201 /* OpenAPIURLSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D676D27D2A63F0F200FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
+			productName = OpenAPIURLSession;
+		};
+		D676D2802A63F0FF00FEF201 /* OpenAPIGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D676D2792A63F0CD00FEF201 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
+			productName = "plugin:OpenAPIGenerator";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D676D2402A63F05000FEF201 /* Project object */;
 }
