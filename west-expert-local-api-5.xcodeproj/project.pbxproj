@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */; };
+		D676D24E2A63F05000FEF201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24D2A63F05000FEF201 /* ContentView.swift */; };
+		D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D24F2A63F05200FEF201 /* Assets.xcassets */; };
+		D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D2522A63F05200FEF201 /* Preview Assets.xcassets */; };
+		D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */; };
+		D676D2672A63F05200FEF201 /* west_expert_local_api_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */; };
+		D676D2692A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D676D2592A63F05200FEF201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D676D2402A63F05000FEF201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676D2472A63F05000FEF201;
+			remoteInfo = "west-expert-local-api-5";
+		};
+		D676D2632A63F05200FEF201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D676D2402A63F05000FEF201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676D2472A63F05000FEF201;
+			remoteInfo = "west-expert-local-api-5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "west-expert-local-api-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5App.swift; sourceTree = "<group>"; };
+		D676D24D2A63F05000FEF201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D676D24F2A63F05200FEF201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D676D2522A63F05200FEF201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5Tests.swift; sourceTree = "<group>"; };
+		D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITests.swift; sourceTree = "<group>"; };
+		D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D676D2452A63F05000FEF201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D2552A63F05200FEF201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D25F2A63F05200FEF201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D676D23F2A63F05000FEF201 = {
+			isa = PBXGroup;
+			children = (
+				D676D24A2A63F05000FEF201 /* west-expert-local-api-5 */,
+				D676D25B2A63F05200FEF201 /* west-expert-local-api-5Tests */,
+				D676D2652A63F05200FEF201 /* west-expert-local-api-5UITests */,
+				D676D2492A63F05000FEF201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D676D2492A63F05000FEF201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */,
+				D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */,
+				D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D676D24A2A63F05000FEF201 /* west-expert-local-api-5 */ = {
+			isa = PBXGroup;
+			children = (
+				D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */,
+				D676D24D2A63F05000FEF201 /* ContentView.swift */,
+				D676D24F2A63F05200FEF201 /* Assets.xcassets */,
+				D676D2512A63F05200FEF201 /* Preview Content */,
+			);
+			path = "west-expert-local-api-5";
+			sourceTree = "<group>";
+		};
+		D676D2512A63F05200FEF201 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D676D2522A63F05200FEF201 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D676D25B2A63F05200FEF201 /* west-expert-local-api-5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */,
+			);
+			path = "west-expert-local-api-5Tests";
+			sourceTree = "<group>";
+		};
+		D676D2652A63F05200FEF201 /* west-expert-local-api-5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */,
+				D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */,
+			);
+			path = "west-expert-local-api-5UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D676D2472A63F05000FEF201 /* west-expert-local-api-5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5" */;
+			buildPhases = (
+				D676D2442A63F05000FEF201 /* Sources */,
+				D676D2452A63F05000FEF201 /* Frameworks */,
+				D676D2462A63F05000FEF201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "west-expert-local-api-5";
+			productName = "west-expert-local-api-5";
+			productReference = D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D676D2572A63F05200FEF201 /* west-expert-local-api-5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5Tests" */;
+			buildPhases = (
+				D676D2542A63F05200FEF201 /* Sources */,
+				D676D2552A63F05200FEF201 /* Frameworks */,
+				D676D2562A63F05200FEF201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D676D25A2A63F05200FEF201 /* PBXTargetDependency */,
+			);
+			name = "west-expert-local-api-5Tests";
+			productName = "west-expert-local-api-5Tests";
+			productReference = D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D676D2612A63F05200FEF201 /* west-expert-local-api-5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5UITests" */;
+			buildPhases = (
+				D676D25E2A63F05200FEF201 /* Sources */,
+				D676D25F2A63F05200FEF201 /* Frameworks */,
+				D676D2602A63F05200FEF201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D676D2642A63F05200FEF201 /* PBXTargetDependency */,
+			);
+			name = "west-expert-local-api-5UITests";
+			productName = "west-expert-local-api-5UITests";
+			productReference = D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D676D2402A63F05000FEF201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D676D2472A63F05000FEF201 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D676D2572A63F05200FEF201 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D676D2472A63F05000FEF201;
+					};
+					D676D2612A63F05200FEF201 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D676D2472A63F05000FEF201;
+					};
+				};
+			};
+			buildConfigurationList = D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "west-expert-local-api-5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D676D23F2A63F05000FEF201;
+			productRefGroup = D676D2492A63F05000FEF201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D676D2472A63F05000FEF201 /* west-expert-local-api-5 */,
+				D676D2572A63F05200FEF201 /* west-expert-local-api-5Tests */,
+				D676D2612A63F05200FEF201 /* west-expert-local-api-5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D676D2462A63F05000FEF201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */,
+				D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D2562A63F05200FEF201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D2602A63F05200FEF201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D676D2442A63F05000FEF201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676D24E2A63F05000FEF201 /* ContentView.swift in Sources */,
+				D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D2542A63F05200FEF201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D676D25E2A63F05200FEF201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D676D2692A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift in Sources */,
+				D676D2672A63F05200FEF201 /* west_expert_local_api_5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D676D25A2A63F05200FEF201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D676D2472A63F05000FEF201 /* west-expert-local-api-5 */;
+			targetProxy = D676D2592A63F05200FEF201 /* PBXContainerItemProxy */;
+		};
+		D676D2642A63F05200FEF201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D676D2472A63F05000FEF201 /* west-expert-local-api-5 */;
+			targetProxy = D676D2632A63F05200FEF201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D676D26A2A63F05200FEF201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D676D26B2A63F05200FEF201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D676D26D2A63F05200FEF201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"west-expert-local-api-5/Preview Content\"";
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D676D26E2A63F05200FEF201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"west-expert-local-api-5/Preview Content\"";
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D676D2702A63F05200FEF201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/west-expert-local-api-5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/west-expert-local-api-5";
+			};
+			name = Debug;
+		};
+		D676D2712A63F05200FEF201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/west-expert-local-api-5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/west-expert-local-api-5";
+			};
+			name = Release;
+		};
+		D676D2732A63F05200FEF201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "west-expert-local-api-5";
+			};
+			name = Debug;
+		};
+		D676D2742A63F05200FEF201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66B4YRXFGT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "west-expert-local-api-5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "west-expert-local-api-5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D676D26A2A63F05200FEF201 /* Debug */,
+				D676D26B2A63F05200FEF201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D676D26D2A63F05200FEF201 /* Debug */,
+				D676D26E2A63F05200FEF201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D676D2702A63F05200FEF201 /* Debug */,
+				D676D2712A63F05200FEF201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D676D2732A63F05200FEF201 /* Debug */,
+				D676D2742A63F05200FEF201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D676D2402A63F05000FEF201 /* Project object */;
+}
