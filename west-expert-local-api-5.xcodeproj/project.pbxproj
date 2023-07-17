@@ -101,6 +101,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61DE1722A65E1A1001670BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */,
+				D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */,
+				D676D28D2A643E7300FEF201 /* ColorFromString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D61DE1742A65E1BD001670BB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D68BB1562A65D62C004CF8ED /* MapConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D61DE1752A65E1D7001670BB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D676D2842A641EDB00FEF201 /* TokenHandler.swift */,
+				D676D2892A641F6C00FEF201 /* AuthError.swift */,
+				D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D61DE1762A65E1EC001670BB /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */,
+				D68BB14D2A65BC58004CF8ED /* VehicleAnnotation.swift */,
+				D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		D61DE1772A65E203001670BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D676D2902A64745800FEF201 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D61DE1782A65E20F001670BB /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				D676D24D2A63F05000FEF201 /* VehicleMapView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		D676D23F2A63F05000FEF201 = {
 			isa = PBXGroup;
 			children = (
@@ -127,18 +181,12 @@
 				D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */,
 				D676D2752A63F08600FEF201 /* openapi.yaml */,
 				D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */,
-				D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */,
-				D676D24D2A63F05000FEF201 /* VehicleMapView.swift */,
-				D68BB1562A65D62C004CF8ED /* MapConstants.swift */,
-				D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */,
-				D68BB14D2A65BC58004CF8ED /* VehicleAnnotation.swift */,
-				D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */,
-				D676D2902A64745800FEF201 /* MapViewController.swift */,
-				D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */,
-				D676D28D2A643E7300FEF201 /* ColorFromString.swift */,
-				D676D2892A641F6C00FEF201 /* AuthError.swift */,
-				D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */,
-				D676D2842A641EDB00FEF201 /* TokenHandler.swift */,
+				D61DE1782A65E20F001670BB /* MainViews */,
+				D61DE1762A65E1EC001670BB /* ViewComponents */,
+				D61DE1772A65E203001670BB /* ViewControllers */,
+				D61DE1742A65E1BD001670BB /* Constants */,
+				D61DE1722A65E1A1001670BB /* Extensions */,
+				D61DE1752A65E1D7001670BB /* Authentication */,
 				D676D24F2A63F05200FEF201 /* Assets.xcassets */,
 				D676D2512A63F05200FEF201 /* Preview Content */,
 			);

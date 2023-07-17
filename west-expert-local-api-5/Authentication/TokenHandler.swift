@@ -28,7 +28,6 @@ class TokenHandler: @unchecked Sendable {
     }
     
     func requestNewToken() async throws -> String {
-        print("Requesting new token")
         let authKey = "\(clientIdentifier):\(clientSecret)"
         guard let parsedData = authKey.data(using: .utf8) else {
             throw AuthError.parsingFailed
