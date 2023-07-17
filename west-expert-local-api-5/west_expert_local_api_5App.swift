@@ -11,7 +11,8 @@ import SwiftUI
 struct west_expert_local_api_5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VehicleMapView()
+                .environment(MapViewController())
         }
     }
 }

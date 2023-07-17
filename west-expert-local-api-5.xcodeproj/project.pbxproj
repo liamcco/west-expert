@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6553A2F2A6483210051C9E0 /* VehicleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */; };
+		D6553A322A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */; };
 		D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */; };
-		D676D24E2A63F05000FEF201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24D2A63F05000FEF201 /* ContentView.swift */; };
+		D676D24E2A63F05000FEF201 /* VehicleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24D2A63F05000FEF201 /* VehicleMapView.swift */; };
 		D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D24F2A63F05200FEF201 /* Assets.xcassets */; };
 		D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D2522A63F05200FEF201 /* Preview Assets.xcassets */; };
 		D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */; };
@@ -21,6 +23,12 @@
 		D676D2852A641EDB00FEF201 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2842A641EDB00FEF201 /* TokenHandler.swift */; };
 		D676D2882A641F0F00FEF201 /* AuthenticationMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */; };
 		D676D28A2A641F6C00FEF201 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2892A641F6C00FEF201 /* AuthError.swift */; };
+		D676D28E2A643E7300FEF201 /* ColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D28D2A643E7300FEF201 /* ColorFromString.swift */; };
+		D676D2912A64745900FEF201 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2902A64745800FEF201 /* MapViewController.swift */; };
+		D68BB14E2A65BC58004CF8ED /* VehicleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB14D2A65BC58004CF8ED /* VehicleAnnotation.swift */; };
+		D68BB1512A65BF0E004CF8ED /* MapToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */; };
+		D68BB1552A65CCC5004CF8ED /* MapCameraFromVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */; };
+		D68BB1572A65D62C004CF8ED /* MapConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1562A65D62C004CF8ED /* MapConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMarker.swift; sourceTree = "<group>"; };
+		D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordiateFromSchema.swift; sourceTree = "<group>"; };
 		D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "west-expert-local-api-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5App.swift; sourceTree = "<group>"; };
-		D676D24D2A63F05000FEF201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D676D24D2A63F05000FEF201 /* VehicleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapView.swift; sourceTree = "<group>"; };
 		D676D24F2A63F05200FEF201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D676D2522A63F05200FEF201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +66,12 @@
 		D676D2842A641EDB00FEF201 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
 		D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMiddleware.swift; sourceTree = "<group>"; };
 		D676D2892A641F6C00FEF201 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		D676D28D2A643E7300FEF201 /* ColorFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFromString.swift; sourceTree = "<group>"; };
+		D676D2902A64745800FEF201 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D68BB14D2A65BC58004CF8ED /* VehicleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnotation.swift; sourceTree = "<group>"; };
+		D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToolbar.swift; sourceTree = "<group>"; };
+		D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCameraFromVehicle.swift; sourceTree = "<group>"; };
+		D68BB1562A65D62C004CF8ED /* MapConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +127,15 @@
 				D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */,
 				D676D2752A63F08600FEF201 /* openapi.yaml */,
 				D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */,
-				D676D24D2A63F05000FEF201 /* ContentView.swift */,
+				D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */,
+				D676D24D2A63F05000FEF201 /* VehicleMapView.swift */,
+				D68BB1562A65D62C004CF8ED /* MapConstants.swift */,
+				D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */,
+				D68BB14D2A65BC58004CF8ED /* VehicleAnnotation.swift */,
+				D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */,
+				D676D2902A64745800FEF201 /* MapViewController.swift */,
+				D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */,
+				D676D28D2A643E7300FEF201 /* ColorFromString.swift */,
 				D676D2892A641F6C00FEF201 /* AuthError.swift */,
 				D676D2872A641F0F00FEF201 /* AuthenticationMiddleware.swift */,
 				D676D2842A641EDB00FEF201 /* TokenHandler.swift */,
@@ -288,11 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D676D24E2A63F05000FEF201 /* ContentView.swift in Sources */,
+				D6553A2F2A6483210051C9E0 /* VehicleMarker.swift in Sources */,
+				D676D28E2A643E7300FEF201 /* ColorFromString.swift in Sources */,
+				D68BB1512A65BF0E004CF8ED /* MapToolbar.swift in Sources */,
+				D676D24E2A63F05000FEF201 /* VehicleMapView.swift in Sources */,
+				D68BB1572A65D62C004CF8ED /* MapConstants.swift in Sources */,
+				D68BB1552A65CCC5004CF8ED /* MapCameraFromVehicle.swift in Sources */,
 				D676D2852A641EDB00FEF201 /* TokenHandler.swift in Sources */,
 				D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */,
 				D676D2882A641F0F00FEF201 /* AuthenticationMiddleware.swift in Sources */,
+				D6553A322A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift in Sources */,
 				D676D28A2A641F6C00FEF201 /* AuthError.swift in Sources */,
+				D676D2912A64745900FEF201 /* MapViewController.swift in Sources */,
+				D68BB14E2A65BC58004CF8ED /* VehicleAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
