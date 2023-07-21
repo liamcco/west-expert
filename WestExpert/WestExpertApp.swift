@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct west_expert_local_api_5App: App {
+struct WestExpertApp: App {
     var body: some Scene {
         WindowGroup {
             VehicleMapView()

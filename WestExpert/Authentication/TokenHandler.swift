@@ -10,9 +10,6 @@ import Foundation
 class TokenHandler: @unchecked Sendable {
     private var token: String?
     
-    let clientIdentifier = "eDNu9kAkTfUfFo5Bf7Wc50EJINYa"
-    let clientSecret = "wWnyS_ElcW6SLaZhSHtHmsNffDYa"
-    
     func getToken() async throws -> String {
         if let token {
             return token
@@ -28,7 +25,7 @@ class TokenHandler: @unchecked Sendable {
     }
     
     func requestNewToken() async throws -> String {
-        let authKey = "\(clientIdentifier):\(clientSecret)"
+        let authKey = "\(Secrets.clientIdentifier):\(Secrets.clientSecret)"
         guard let parsedData = authKey.data(using: .utf8) else {
             throw AuthError.parsingFailed
         }

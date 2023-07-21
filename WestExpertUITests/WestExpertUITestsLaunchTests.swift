@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class west_expert_local_api_5UITestsLaunchTests: XCTestCase {
+final class WestExpertUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

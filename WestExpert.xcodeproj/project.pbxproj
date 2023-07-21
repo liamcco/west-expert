@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		D6553A2F2A6483210051C9E0 /* VehicleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */; };
 		D6553A322A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */; };
-		D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */; };
+		D676D24C2A63F05000FEF201 /* WestExpertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24B2A63F05000FEF201 /* WestExpertApp.swift */; };
 		D676D24E2A63F05000FEF201 /* VehicleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D24D2A63F05000FEF201 /* VehicleMapView.swift */; };
 		D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D24F2A63F05200FEF201 /* Assets.xcassets */; };
 		D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676D2522A63F05200FEF201 /* Preview Assets.xcassets */; };
-		D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */; };
-		D676D2672A63F05200FEF201 /* west_expert_local_api_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */; };
-		D676D2692A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */; };
+		D676D25D2A63F05200FEF201 /* WestExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D25C2A63F05200FEF201 /* WestExpertTests.swift */; };
+		D676D2672A63F05200FEF201 /* WestExpertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2662A63F05200FEF201 /* WestExpertUITests.swift */; };
+		D676D2692A63F05200FEF201 /* WestExpertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676D2682A63F05200FEF201 /* WestExpertUITestsLaunchTests.swift */; };
 		D676D2772A63F08600FEF201 /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D676D2752A63F08600FEF201 /* openapi.yaml */; };
 		D676D2782A63F08600FEF201 /* openapi-generator-config.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */; };
 		D676D27C2A63F0E400FEF201 /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = D676D27B2A63F0E400FEF201 /* OpenAPIRuntime */; };
@@ -29,6 +29,8 @@
 		D68BB1512A65BF0E004CF8ED /* MapToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */; };
 		D68BB1552A65CCC5004CF8ED /* MapCameraFromVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */; };
 		D68BB1572A65D62C004CF8ED /* MapConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BB1562A65D62C004CF8ED /* MapConstants.swift */; };
+		D69E243A2A6B21170059C05E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E24392A6B21170059C05E /* Secrets.swift */; };
+		D69E243D2A6B21980059C05E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D69E243C2A6B21980059C05E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +53,16 @@
 /* Begin PBXFileReference section */
 		D6553A2E2A6483210051C9E0 /* VehicleMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMarker.swift; sourceTree = "<group>"; };
 		D6553A312A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordiateFromSchema.swift; sourceTree = "<group>"; };
-		D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "west-expert-local-api-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5App.swift; sourceTree = "<group>"; };
+		D676D2482A63F05000FEF201 /* WestExpert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestExpert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D24B2A63F05000FEF201 /* WestExpertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestExpertApp.swift; sourceTree = "<group>"; };
 		D676D24D2A63F05000FEF201 /* VehicleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapView.swift; sourceTree = "<group>"; };
 		D676D24F2A63F05200FEF201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D676D2522A63F05200FEF201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5Tests.swift; sourceTree = "<group>"; };
-		D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "west-expert-local-api-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITests.swift; sourceTree = "<group>"; };
-		D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = west_expert_local_api_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D676D2582A63F05200FEF201 /* WestExpertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestExpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D25C2A63F05200FEF201 /* WestExpertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestExpertTests.swift; sourceTree = "<group>"; };
+		D676D2622A63F05200FEF201 /* WestExpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestExpertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D676D2662A63F05200FEF201 /* WestExpertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestExpertUITests.swift; sourceTree = "<group>"; };
+		D676D2682A63F05200FEF201 /* WestExpertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestExpertUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D676D2752A63F08600FEF201 /* openapi.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
 		D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
 		D676D2842A641EDB00FEF201 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
@@ -72,6 +74,8 @@
 		D68BB1502A65BF0E004CF8ED /* MapToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToolbar.swift; sourceTree = "<group>"; };
 		D68BB1542A65CCC5004CF8ED /* MapCameraFromVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCameraFromVehicle.swift; sourceTree = "<group>"; };
 		D68BB1562A65D62C004CF8ED /* MapConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConstants.swift; sourceTree = "<group>"; };
+		D69E24392A6B21170059C05E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		D69E243C2A6B21980059C05E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		D61DE1742A65E1BD001670BB /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				D61DE1792A65E254001670BB /* Mockdata */,
 				D68BB1562A65D62C004CF8ED /* MapConstants.swift */,
 			);
 			path = Constants;
@@ -155,12 +160,19 @@
 			path = MainViews;
 			sourceTree = "<group>";
 		};
+		D61DE1792A65E254001670BB /* Mockdata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mockdata;
+			sourceTree = "<group>";
+		};
 		D676D23F2A63F05000FEF201 = {
 			isa = PBXGroup;
 			children = (
-				D676D24A2A63F05000FEF201 /* west-expert-local-api-5 */,
-				D676D25B2A63F05200FEF201 /* west-expert-local-api-5Tests */,
-				D676D2652A63F05200FEF201 /* west-expert-local-api-5UITests */,
+				D676D24A2A63F05000FEF201 /* WestExpert */,
+				D676D25B2A63F05200FEF201 /* WestExpertTests */,
+				D676D2652A63F05200FEF201 /* WestExpertUITests */,
 				D676D2492A63F05000FEF201 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,19 +180,19 @@
 		D676D2492A63F05000FEF201 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */,
-				D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */,
-				D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */,
+				D676D2482A63F05000FEF201 /* WestExpert.app */,
+				D676D2582A63F05200FEF201 /* WestExpertTests.xctest */,
+				D676D2622A63F05200FEF201 /* WestExpertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D676D24A2A63F05000FEF201 /* west-expert-local-api-5 */ = {
+		D676D24A2A63F05000FEF201 /* WestExpert */ = {
 			isa = PBXGroup;
 			children = (
 				D676D2762A63F08600FEF201 /* openapi-generator-config.yaml */,
 				D676D2752A63F08600FEF201 /* openapi.yaml */,
-				D676D24B2A63F05000FEF201 /* west_expert_local_api_5App.swift */,
+				D676D24B2A63F05000FEF201 /* WestExpertApp.swift */,
 				D61DE1782A65E20F001670BB /* MainViews */,
 				D61DE1762A65E1EC001670BB /* ViewComponents */,
 				D61DE1772A65E203001670BB /* ViewControllers */,
@@ -189,8 +201,10 @@
 				D61DE1752A65E1D7001670BB /* Authentication */,
 				D676D24F2A63F05200FEF201 /* Assets.xcassets */,
 				D676D2512A63F05200FEF201 /* Preview Content */,
+				D69E243B2A6B21730059C05E /* Secrets */,
+				D69E243C2A6B21980059C05E /* .gitignore */,
 			);
-			path = "west-expert-local-api-5";
+			path = WestExpert;
 			sourceTree = "<group>";
 		};
 		D676D2512A63F05200FEF201 /* Preview Content */ = {
@@ -201,29 +215,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D676D25B2A63F05200FEF201 /* west-expert-local-api-5Tests */ = {
+		D676D25B2A63F05200FEF201 /* WestExpertTests */ = {
 			isa = PBXGroup;
 			children = (
-				D676D25C2A63F05200FEF201 /* west_expert_local_api_5Tests.swift */,
+				D676D25C2A63F05200FEF201 /* WestExpertTests.swift */,
 			);
-			path = "west-expert-local-api-5Tests";
+			path = WestExpertTests;
 			sourceTree = "<group>";
 		};
-		D676D2652A63F05200FEF201 /* west-expert-local-api-5UITests */ = {
+		D676D2652A63F05200FEF201 /* WestExpertUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D676D2662A63F05200FEF201 /* west_expert_local_api_5UITests.swift */,
-				D676D2682A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift */,
+				D676D2662A63F05200FEF201 /* WestExpertUITests.swift */,
+				D676D2682A63F05200FEF201 /* WestExpertUITestsLaunchTests.swift */,
 			);
-			path = "west-expert-local-api-5UITests";
+			path = WestExpertUITests;
+			sourceTree = "<group>";
+		};
+		D69E243B2A6B21730059C05E /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				D69E24392A6B21170059C05E /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D676D2472A63F05000FEF201 /* west-expert-local-api-5 */ = {
+		D676D2472A63F05000FEF201 /* WestExpert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5" */;
+			buildConfigurationList = D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpert" */;
 			buildPhases = (
 				D676D2442A63F05000FEF201 /* Sources */,
 				D676D2452A63F05000FEF201 /* Frameworks */,
@@ -234,18 +256,18 @@
 			dependencies = (
 				D676D2812A63F0FF00FEF201 /* PBXTargetDependency */,
 			);
-			name = "west-expert-local-api-5";
+			name = WestExpert;
 			packageProductDependencies = (
 				D676D27B2A63F0E400FEF201 /* OpenAPIRuntime */,
 				D676D27E2A63F0F200FEF201 /* OpenAPIURLSession */,
 			);
 			productName = "west-expert-local-api-5";
-			productReference = D676D2482A63F05000FEF201 /* west-expert-local-api-5.app */;
+			productReference = D676D2482A63F05000FEF201 /* WestExpert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D676D2572A63F05200FEF201 /* west-expert-local-api-5Tests */ = {
+		D676D2572A63F05200FEF201 /* WestExpertTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5Tests" */;
+			buildConfigurationList = D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpertTests" */;
 			buildPhases = (
 				D676D2542A63F05200FEF201 /* Sources */,
 				D676D2552A63F05200FEF201 /* Frameworks */,
@@ -256,14 +278,14 @@
 			dependencies = (
 				D676D25A2A63F05200FEF201 /* PBXTargetDependency */,
 			);
-			name = "west-expert-local-api-5Tests";
+			name = WestExpertTests;
 			productName = "west-expert-local-api-5Tests";
-			productReference = D676D2582A63F05200FEF201 /* west-expert-local-api-5Tests.xctest */;
+			productReference = D676D2582A63F05200FEF201 /* WestExpertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D676D2612A63F05200FEF201 /* west-expert-local-api-5UITests */ = {
+		D676D2612A63F05200FEF201 /* WestExpertUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5UITests" */;
+			buildConfigurationList = D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpertUITests" */;
 			buildPhases = (
 				D676D25E2A63F05200FEF201 /* Sources */,
 				D676D25F2A63F05200FEF201 /* Frameworks */,
@@ -274,9 +296,9 @@
 			dependencies = (
 				D676D2642A63F05200FEF201 /* PBXTargetDependency */,
 			);
-			name = "west-expert-local-api-5UITests";
+			name = WestExpertUITests;
 			productName = "west-expert-local-api-5UITests";
-			productReference = D676D2622A63F05200FEF201 /* west-expert-local-api-5UITests.xctest */;
+			productReference = D676D2622A63F05200FEF201 /* WestExpertUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -302,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "west-expert-local-api-5" */;
+			buildConfigurationList = D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "WestExpert" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,9 +342,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D676D2472A63F05000FEF201 /* west-expert-local-api-5 */,
-				D676D2572A63F05200FEF201 /* west-expert-local-api-5Tests */,
-				D676D2612A63F05200FEF201 /* west-expert-local-api-5UITests */,
+				D676D2472A63F05000FEF201 /* WestExpert */,
+				D676D2572A63F05200FEF201 /* WestExpertTests */,
+				D676D2612A63F05200FEF201 /* WestExpertUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -332,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69E243D2A6B21980059C05E /* .gitignore in Resources */,
 				D676D2532A63F05200FEF201 /* Preview Assets.xcassets in Resources */,
 				D676D2782A63F08600FEF201 /* openapi-generator-config.yaml in Resources */,
 				D676D2502A63F05200FEF201 /* Assets.xcassets in Resources */,
@@ -367,8 +390,9 @@
 				D68BB1572A65D62C004CF8ED /* MapConstants.swift in Sources */,
 				D68BB1552A65CCC5004CF8ED /* MapCameraFromVehicle.swift in Sources */,
 				D676D2852A641EDB00FEF201 /* TokenHandler.swift in Sources */,
-				D676D24C2A63F05000FEF201 /* west_expert_local_api_5App.swift in Sources */,
+				D676D24C2A63F05000FEF201 /* WestExpertApp.swift in Sources */,
 				D676D2882A641F0F00FEF201 /* AuthenticationMiddleware.swift in Sources */,
+				D69E243A2A6B21170059C05E /* Secrets.swift in Sources */,
 				D6553A322A64870F0051C9E0 /* CLLocationCoordiateFromSchema.swift in Sources */,
 				D676D28A2A641F6C00FEF201 /* AuthError.swift in Sources */,
 				D676D2912A64745900FEF201 /* MapViewController.swift in Sources */,
@@ -380,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D676D25D2A63F05200FEF201 /* west_expert_local_api_5Tests.swift in Sources */,
+				D676D25D2A63F05200FEF201 /* WestExpertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +412,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D676D2692A63F05200FEF201 /* west_expert_local_api_5UITestsLaunchTests.swift in Sources */,
-				D676D2672A63F05200FEF201 /* west_expert_local_api_5UITests.swift in Sources */,
+				D676D2692A63F05200FEF201 /* WestExpertUITestsLaunchTests.swift in Sources */,
+				D676D2672A63F05200FEF201 /* WestExpertUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,12 +422,12 @@
 /* Begin PBXTargetDependency section */
 		D676D25A2A63F05200FEF201 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D676D2472A63F05000FEF201 /* west-expert-local-api-5 */;
+			target = D676D2472A63F05000FEF201 /* WestExpert */;
 			targetProxy = D676D2592A63F05200FEF201 /* PBXContainerItemProxy */;
 		};
 		D676D2642A63F05200FEF201 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D676D2472A63F05000FEF201 /* west-expert-local-api-5 */;
+			target = D676D2472A63F05000FEF201 /* WestExpert */;
 			targetProxy = D676D2632A63F05200FEF201 /* PBXContainerItemProxy */;
 		};
 		D676D2812A63F0FF00FEF201 /* PBXTargetDependency */ = {
@@ -539,7 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"west-expert-local-api-5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WestExpert/Preview Content\"";
 				DEVELOPMENT_TEAM = 66B4YRXFGT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -553,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -568,7 +592,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"west-expert-local-api-5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WestExpert/Preview Content\"";
 				DEVELOPMENT_TEAM = 66B4YRXFGT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -582,7 +606,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -601,7 +625,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -621,7 +645,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -639,7 +663,7 @@
 				DEVELOPMENT_TEAM = 66B4YRXFGT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpertUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -657,7 +681,7 @@
 				DEVELOPMENT_TEAM = 66B4YRXFGT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cottna.west-expert-local-api-5UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = cottna.WestExpertUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -669,7 +693,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "west-expert-local-api-5" */ = {
+		D676D2432A63F05000FEF201 /* Build configuration list for PBXProject "WestExpert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D676D26A2A63F05200FEF201 /* Debug */,
@@ -678,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5" */ = {
+		D676D26C2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D676D26D2A63F05200FEF201 /* Debug */,
@@ -687,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5Tests" */ = {
+		D676D26F2A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpertTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D676D2702A63F05200FEF201 /* Debug */,
@@ -696,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "west-expert-local-api-5UITests" */ = {
+		D676D2722A63F05200FEF201 /* Build configuration list for PBXNativeTarget "WestExpertUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D676D2732A63F05200FEF201 /* Debug */,
